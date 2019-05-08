@@ -8,12 +8,15 @@
 
 /* Begin PBXBuildFile section */
 		4B4606AA2282640F00C7A4C1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4606A92282640F00C7A4C1 /* AppDelegate.swift */; };
-		4B4606AC2282640F00C7A4C1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4606AB2282640F00C7A4C1 /* ViewController.swift */; };
+		4B4606AC2282640F00C7A4C1 /* ApartmentListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4606AB2282640F00C7A4C1 /* ApartmentListViewController.swift */; };
 		4B4606AF2282640F00C7A4C1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4606AD2282640F00C7A4C1 /* Main.storyboard */; };
 		4B4606B22282640F00C7A4C1 /* Apartment_Hunter.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4B4606B02282640F00C7A4C1 /* Apartment_Hunter.xcdatamodeld */; };
 		4B4606B42282641000C7A4C1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B4606B32282641000C7A4C1 /* Assets.xcassets */; };
 		4B4606B72282641000C7A4C1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B4606B52282641000C7A4C1 /* LaunchScreen.storyboard */; };
 		4B4606C22282641000C7A4C1 /* Apartment_HunterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4606C12282641000C7A4C1 /* Apartment_HunterTests.swift */; };
+		4B4606D0228264B200C7A4C1 /* Apartment.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4606CF228264B200C7A4C1 /* Apartment.swift */; };
+		4B4606D2228269D300C7A4C1 /* ApartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4606D1228269D300C7A4C1 /* ApartmentViewController.swift */; };
+		4B4606D4228269DF00C7A4C1 /* AddApartmentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4606D3228269DF00C7A4C1 /* AddApartmentViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +32,7 @@
 /* Begin PBXFileReference section */
 		4B4606A62282640F00C7A4C1 /* Apartment Hunter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apartment Hunter.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4606A92282640F00C7A4C1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4B4606AB2282640F00C7A4C1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4B4606AB2282640F00C7A4C1 /* ApartmentListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentListViewController.swift; sourceTree = "<group>"; };
 		4B4606AE2282640F00C7A4C1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4B4606B12282640F00C7A4C1 /* Apartment_Hunter.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Apartment_Hunter.xcdatamodel; sourceTree = "<group>"; };
 		4B4606B32282641000C7A4C1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +41,9 @@
 		4B4606BD2282641000C7A4C1 /* Apartment HunterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apartment HunterTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B4606C12282641000C7A4C1 /* Apartment_HunterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartment_HunterTests.swift; sourceTree = "<group>"; };
 		4B4606C32282641000C7A4C1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4606CF228264B200C7A4C1 /* Apartment.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apartment.swift; sourceTree = "<group>"; };
+		4B4606D1228269D300C7A4C1 /* ApartmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApartmentViewController.swift; sourceTree = "<group>"; };
+		4B4606D3228269DF00C7A4C1 /* AddApartmentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddApartmentViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,8 +85,11 @@
 		4B4606A82282640F00C7A4C1 /* Apartment Hunter */ = {
 			isa = PBXGroup;
 			children = (
+				4B4606CC2282647F00C7A4C1 /* Models */,
 				4B4606A92282640F00C7A4C1 /* AppDelegate.swift */,
-				4B4606AB2282640F00C7A4C1 /* ViewController.swift */,
+				4B4606AB2282640F00C7A4C1 /* ApartmentListViewController.swift */,
+				4B4606D1228269D300C7A4C1 /* ApartmentViewController.swift */,
+				4B4606D3228269DF00C7A4C1 /* AddApartmentViewController.swift */,
 				4B4606AD2282640F00C7A4C1 /* Main.storyboard */,
 				4B4606B32282641000C7A4C1 /* Assets.xcassets */,
 				4B4606B52282641000C7A4C1 /* LaunchScreen.storyboard */,
@@ -97,6 +106,14 @@
 				4B4606C32282641000C7A4C1 /* Info.plist */,
 			);
 			path = "Apartment HunterTests";
+			sourceTree = "<group>";
+		};
+		4B4606CC2282647F00C7A4C1 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				4B4606CF228264B200C7A4C1 /* Apartment.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -200,9 +217,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4B4606AC2282640F00C7A4C1 /* ViewController.swift in Sources */,
+				4B4606AC2282640F00C7A4C1 /* ApartmentListViewController.swift in Sources */,
 				4B4606B22282640F00C7A4C1 /* Apartment_Hunter.xcdatamodeld in Sources */,
+				4B4606D4228269DF00C7A4C1 /* AddApartmentViewController.swift in Sources */,
+				4B4606D0228264B200C7A4C1 /* Apartment.swift in Sources */,
 				4B4606AA2282640F00C7A4C1 /* AppDelegate.swift in Sources */,
+				4B4606D2228269D300C7A4C1 /* ApartmentViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -374,7 +394,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cjwillis.Apartment-Hunter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -392,7 +412,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "cjwillis.Apartment-Hunter";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
